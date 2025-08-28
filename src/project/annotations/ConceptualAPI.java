@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ConceptualAPI {
-    int BAD_NUMBER = 10;
+    this will not compile;
     // Marker annotation, should be applied to an interface type
 }
