@@ -8,5 +8,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ConceptualAPI {
-	// Marker annotation, should be applied to an interface type
+    int BadNumber = 10;
+    // Marker annotation, should be applied to an interface type
 }
